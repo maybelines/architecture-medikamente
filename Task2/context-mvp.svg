@@ -1,0 +1,52 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="1000" viewBox="0 0 1440 1000" role="img" aria-labelledby="title">
+<title id="title">Медикаменте — контекст C4, MVP</title>
+<defs><marker id="arrow" viewBox="0 0 10 10" refX="10" refY="5" markerWidth="9" markerHeight="9" orient="auto-start-reverse"><path d="M 0 0 L 10 5 L 0 10 z" fill="#555"/></marker></defs>
+<rect width="1440" height="1000" fill="white"/>
+<text x="720.0" y="52.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="28" font-weight="700" fill="#222">Медикаменте — контекст C4, MVP</text>
+<path d="M 230 280 L 230 490 L 500 490" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 720 305 L 720 420" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 1210 280 L 1210 490 L 940 490" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 580 640 L 580 870 L 440 870" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<path d="M 860 640 L 860 870 L 1000 870" fill="none" stroke="#555" stroke-width="1.5" marker-end="url(#arrow)"/>
+<rect x="70" y="150" width="320" height="130" rx="12" fill="#244f73" stroke="#555"/>
+<text x="230.0" y="177.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff">Пациент</text>
+<text x="230.0" y="207.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#fff">[Человек]</text>
+<text x="230.0" y="240.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#fff">Самостоятельная запись</text>
+<rect x="560" y="150" width="320" height="155" rx="12" fill="#244f73" stroke="#555"/>
+<text x="720.0" y="177.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff">Ресепшен</text>
+<text x="720.0" y="207.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#fff">[Человек]</text>
+<text x="720.0" y="241.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#fff">Ведёт записи и напоминает</text>
+<text x="720.0" y="265.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#fff">о приёме за день</text>
+<rect x="1050" y="150" width="320" height="130" rx="12" fill="#244f73" stroke="#555"/>
+<text x="1210.0" y="177.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#fff">Врач</text>
+<text x="1210.0" y="207.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#fff">[Человек]</text>
+<text x="1210.0" y="240.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#fff">Смотрит своё расписание</text>
+<rect x="500" y="420" width="440" height="220" rx="0" fill="#deebf7" stroke="#555"/>
+<text x="720.0" y="447.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#16324b">Клиническая система</text>
+<text x="720.0" y="477.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#16324b">[Программная система]</text>
+<text x="720.0" y="511.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#16324b">Порталы пациента и сотрудников</text>
+<text x="720.0" y="535.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#16324b">Контакты, договоры, расписание</text>
+<text x="720.0" y="559.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#16324b">Проверка прав и правил данных</text>
+<rect x="100" y="800" width="340" height="140" rx="0" fill="#deebf7" stroke="#555"/>
+<text x="270.0" y="827.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#16324b">Единый вход</text>
+<text x="270.0" y="857.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#16324b">[Программная система]</text>
+<text x="270.0" y="890.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#16324b">Учётные записи и роли</text>
+<rect x="1000" y="800" width="340" height="140" rx="0" fill="#deebf7" stroke="#555"/>
+<text x="1170.0" y="827.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="21" font-weight="700" fill="#16324b">Аудит и мониторинг</text>
+<text x="1170.0" y="857.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="14" font-weight="400" fill="#16324b">[Программная система]</text>
+<text x="1170.0" y="890.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="18" font-weight="400" fill="#16324b">События доступа, оповещения</text>
+<rect x="110" y="335" width="240" height="55" fill="white"/>
+<text x="230.0" y="351.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">Выбирает врача</text>
+<text x="230.0" y="374.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">и время</text>
+<rect x="755" y="335" width="200" height="35" fill="white"/>
+<text x="855.0" y="352.5" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">Ведёт записи</text>
+<rect x="1090" y="335" width="240" height="55" fill="white"/>
+<text x="1210.0" y="351.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">Получает</text>
+<text x="1210.0" y="374.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">расписание</text>
+<rect x="460" y="710" width="240" height="55" fill="white"/>
+<text x="580.0" y="726.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">Проверяет учётную</text>
+<text x="580.0" y="749.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">запись и роли</text>
+<rect x="725" y="710" width="270" height="55" fill="white"/>
+<text x="860.0" y="726.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">Передаёт события</text>
+<text x="860.0" y="749.0" text-anchor="middle" dominant-baseline="central" font-family="Arial,sans-serif" font-size="17" font-weight="400" fill="#222">без содержимого карт</text>
+</svg>
