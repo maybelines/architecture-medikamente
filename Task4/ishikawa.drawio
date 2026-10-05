@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="migration" name="Узкие места миграции">
+    <mxGraphModel dx="1800" dy="1000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1800" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="Медикаменте: узкие места при миграции" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontStyle=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="35" width="1650" height="55" />
+        </mxCell>
+        <mxCell id="spine" style="edgeStyle=none;html=0;rounded=0;endArrow=block;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=3;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="70" y="500" />
+            <mxPoint as="targetPoint" x="1470" y="500" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="effect" value="Замедление и сбои&#10;при миграции&#10;и росте нагрузки" style="rounded=0;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=22;fontStyle=1;strokeColor=#333333;strokeWidth=2;fillColor=#e8eef5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1470" y="430" width="280" height="140" />
+        </mxCell>
+        <mxCell id="infra-category" value="Инфраструктура" style="rounded=0;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;strokeColor=#555555;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="95" y="120" width="250" height="60" />
+        </mxCell>
+        <mxCell id="infra-bone" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="220" y="180" />
+            <mxPoint as="targetPoint" x="510" y="500" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="infra-twig-1" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="50" y="260" />
+            <mxPoint as="targetPoint" x="292.5" y="260" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="infra-cause-1" value="Один сервер:&#10;общие CPU и память" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="206" width="175" height="48" />
+        </mxCell>
+        <mxCell id="infra-twig-2" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="110" y="355" />
+            <mxPoint as="targetPoint" x="378.59375" y="355" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="infra-cause-2" value="Сканы и копии:&#10;нагрузка на диски" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="301" width="205" height="48" />
+        </mxCell>
+        <mxCell id="infra-twig-3" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="175" y="450" />
+            <mxPoint as="targetPoint" x="464.6875" y="450" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="infra-cause-3" value="Связь с филиалами:&#10;задержки и обрывы" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="175" y="396" width="230" height="48" />
+        </mxCell>
+        <mxCell id="data-category" value="Данные и БД" style="rounded=0;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;strokeColor=#555555;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="535" y="120" width="250" height="60" />
+        </mxCell>
+        <mxCell id="data-bone" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="660" y="180" />
+            <mxPoint as="targetPoint" x="950" y="500" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-twig-1" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="490" y="260" />
+            <mxPoint as="targetPoint" x="732.5" y="260" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-cause-1" value="Дубли пациентов,&#10;разные форматы" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="490" y="206" width="175" height="48" />
+        </mxCell>
+        <mxCell id="data-twig-2" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="550" y="355" />
+            <mxPoint as="targetPoint" x="818.59375" y="355" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-cause-2" value="Файловая 1С:&#10;конкурентная запись" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="301" width="205" height="48" />
+        </mxCell>
+        <mxCell id="data-twig-3" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="615" y="450" />
+            <mxPoint as="targetPoint" x="904.6875" y="450" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="data-cause-3" value="Большие таблицы:&#10;медленные запросы" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="615" y="396" width="230" height="48" />
+        </mxCell>
+        <mxCell id="software-category" value="Программное&#10;обеспечение" style="rounded=0;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;strokeColor=#555555;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="975" y="120" width="250" height="60" />
+        </mxCell>
+        <mxCell id="software-bone" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1100" y="180" />
+            <mxPoint as="targetPoint" x="1390" y="500" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="software-twig-1" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="930" y="260" />
+            <mxPoint as="targetPoint" x="1172.5" y="260" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="software-cause-1" value="Цепочки вызовов&#10;между сервисами" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="930" y="206" width="175" height="48" />
+        </mxCell>
+        <mxCell id="software-twig-2" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="990" y="355" />
+            <mxPoint as="targetPoint" x="1258.59375" y="355" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="software-cause-2" value="Проверки прав&#10;и запись аудита" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="301" width="205" height="48" />
+        </mxCell>
+        <mxCell id="software-twig-3" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1055" y="450" />
+            <mxPoint as="targetPoint" x="1344.6875" y="450" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="software-cause-3" value="Импорт и BI:&#10;нагрузка на рабочую БД" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1055" y="396" width="230" height="48" />
+        </mxCell>
+        <mxCell id="integration-category" value="Интеграции" style="rounded=0;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;strokeColor=#555555;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="95" y="820" width="250" height="60" />
+        </mxCell>
+        <mxCell id="integration-bone" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="220" y="820" />
+            <mxPoint as="targetPoint" x="510" y="500" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="integration-twig-1" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="50" y="740" />
+            <mxPoint as="targetPoint" x="292.5" y="740" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="integration-cause-1" value="ККМ и 1С:&#10;зависимость от OLE" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="50" y="747" width="175" height="48" />
+        </mxCell>
+        <mxCell id="integration-twig-2" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="110" y="645" />
+            <mxPoint as="targetPoint" x="378.59375" y="645" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="integration-cause-2" value="Лаборатория и банк:&#10;ожидание ответа" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="652" width="205" height="48" />
+        </mxCell>
+        <mxCell id="integration-twig-3" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="175" y="550" />
+            <mxPoint as="targetPoint" x="464.6875" y="550" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="integration-cause-3" value="Повторы запросов:&#10;дубли и рост очередей" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="175" y="557" width="230" height="48" />
+        </mxCell>
+        <mxCell id="people-category" value="Персонал" style="rounded=0;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;strokeColor=#555555;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="535" y="820" width="250" height="60" />
+        </mxCell>
+        <mxCell id="people-bone" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="660" y="820" />
+            <mxPoint as="targetPoint" x="950" y="500" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="people-twig-1" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="490" y="740" />
+            <mxPoint as="targetPoint" x="732.5" y="740" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="people-cause-1" value="Три IT-специалиста:&#10;нехватка времени" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="490" y="747" width="175" height="48" />
+        </mxCell>
+        <mxCell id="people-twig-2" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="550" y="645" />
+            <mxPoint as="targetPoint" x="818.59375" y="645" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="people-cause-2" value="Поддержка зависит&#10;от администратора" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="550" y="652" width="205" height="48" />
+        </mxCell>
+        <mxCell id="people-twig-3" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="615" y="550" />
+            <mxPoint as="targetPoint" x="904.6875" y="550" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="people-cause-3" value="Ошибки сотрудников:&#10;ручные исправления" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="615" y="557" width="230" height="48" />
+        </mxCell>
+        <mxCell id="process-category" value="Процессы перехода" style="rounded=0;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=20;fontStyle=1;strokeColor=#555555;fillColor=#f0f0f0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="975" y="820" width="250" height="60" />
+        </mxCell>
+        <mxCell id="process-bone" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1100" y="820" />
+            <mxPoint as="targetPoint" x="1390" y="500" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="process-twig-1" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="930" y="740" />
+            <mxPoint as="targetPoint" x="1172.5" y="740" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="process-cause-1" value="Запись сразу&#10;в две системы" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="930" y="747" width="175" height="48" />
+        </mxCell>
+        <mxCell id="process-twig-2" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="990" y="645" />
+            <mxPoint as="targetPoint" x="1258.59375" y="645" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="process-cause-2" value="Два пациента&#10;на одно время" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="990" y="652" width="205" height="48" />
+        </mxCell>
+        <mxCell id="process-twig-3" style="edgeStyle=none;html=0;rounded=0;endArrow=none;endFill=1;startArrow=none;strokeColor=#555555;strokeWidth=1;" edge="1" parent="1">
+          <mxGeometry as="geometry" relative="1">
+            <mxPoint as="sourcePoint" x="1055" y="550" />
+            <mxPoint as="targetPoint" x="1344.6875" y="550" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="process-cause-3" value="Не описаны проверки&#10;и порядок отката" style="text;html=0;whiteSpace=wrap;align=left;verticalAlign=middle;fontFamily=Arial;fontSize=17;strokeColor=none;fillColor=none;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1055" y="557" width="230" height="48" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

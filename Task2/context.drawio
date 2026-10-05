@@ -1,0 +1,427 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="app.diagrams.net">
+  <diagram id="context-mvp" name="MVP">
+    <mxGraphModel dx="1440" dy="1000" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1440" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="heading" value="Медикаменте — контекст C4, MVP" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontStyle=1;fontColor=#222;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="25" width="1360" height="55" />
+        </mxCell>
+        <mxCell id="edge-0" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.0;entryY=0.3181818181818182;entryPerimeter=0;" edge="1" parent="1" source="patient" target="clinic">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="230" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="reception" target="clinic">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-2" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=1.0;entryY=0.3181818181818182;entryPerimeter=0;" edge="1" parent="1" source="doctor" target="clinic">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1210" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-3" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.18181818181818182;exitY=1.0;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="access">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="580" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-4" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.8181818181818182;exitY=1.0;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="audit">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="860" y="870" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="patient" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="70" y="150" width="320" height="130" />
+        </mxCell>
+        <mxCell id="patient-box" value="" style="rounded=1;arcSize=10;html=0;fillColor=#244f73;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="patient">
+          <mxGeometry as="geometry" x="0" y="0" width="320" height="130" />
+        </mxCell>
+        <mxCell id="patient-title" value="Пациент" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="patient">
+          <mxGeometry as="geometry" x="5" y="12" width="310" height="30" />
+        </mxCell>
+        <mxCell id="patient-type" value="[Человек]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="patient">
+          <mxGeometry as="geometry" x="5" y="45" width="310" height="25" />
+        </mxCell>
+        <mxCell id="patient-body" value="Самостоятельная запись" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="patient">
+          <mxGeometry as="geometry" x="8" y="78" width="304" height="25" />
+        </mxCell>
+        <mxCell id="reception" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="560" y="150" width="320" height="155" />
+        </mxCell>
+        <mxCell id="reception-box" value="" style="rounded=1;arcSize=10;html=0;fillColor=#244f73;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="reception">
+          <mxGeometry as="geometry" x="0" y="0" width="320" height="155" />
+        </mxCell>
+        <mxCell id="reception-title" value="Ресепшен" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="reception">
+          <mxGeometry as="geometry" x="5" y="12" width="310" height="30" />
+        </mxCell>
+        <mxCell id="reception-type" value="[Человек]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="reception">
+          <mxGeometry as="geometry" x="5" y="45" width="310" height="25" />
+        </mxCell>
+        <mxCell id="reception-body" value="Ведёт записи и напоминает&#10;о приёме за день" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="reception">
+          <mxGeometry as="geometry" x="8" y="78" width="304" height="50" />
+        </mxCell>
+        <mxCell id="doctor" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1050" y="150" width="320" height="130" />
+        </mxCell>
+        <mxCell id="doctor-box" value="" style="rounded=1;arcSize=10;html=0;fillColor=#244f73;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="doctor">
+          <mxGeometry as="geometry" x="0" y="0" width="320" height="130" />
+        </mxCell>
+        <mxCell id="doctor-title" value="Врач" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="doctor">
+          <mxGeometry as="geometry" x="5" y="12" width="310" height="30" />
+        </mxCell>
+        <mxCell id="doctor-type" value="[Человек]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="doctor">
+          <mxGeometry as="geometry" x="5" y="45" width="310" height="25" />
+        </mxCell>
+        <mxCell id="doctor-body" value="Смотрит своё расписание" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="doctor">
+          <mxGeometry as="geometry" x="8" y="78" width="304" height="25" />
+        </mxCell>
+        <mxCell id="clinic" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="500" y="420" width="440" height="220" />
+        </mxCell>
+        <mxCell id="clinic-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#deebf7;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="clinic">
+          <mxGeometry as="geometry" x="0" y="0" width="440" height="220" />
+        </mxCell>
+        <mxCell id="clinic-title" value="Клиническая система" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="clinic">
+          <mxGeometry as="geometry" x="5" y="12" width="430" height="30" />
+        </mxCell>
+        <mxCell id="clinic-type" value="[Программная система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="clinic">
+          <mxGeometry as="geometry" x="5" y="45" width="430" height="25" />
+        </mxCell>
+        <mxCell id="clinic-body" value="Порталы пациента и сотрудников&#10;Контакты, договоры, расписание&#10;Проверка прав и правил данных" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="clinic">
+          <mxGeometry as="geometry" x="8" y="78" width="424" height="75" />
+        </mxCell>
+        <mxCell id="access" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="800" width="340" height="140" />
+        </mxCell>
+        <mxCell id="access-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#deebf7;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="access">
+          <mxGeometry as="geometry" x="0" y="0" width="340" height="140" />
+        </mxCell>
+        <mxCell id="access-title" value="Единый вход" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="access">
+          <mxGeometry as="geometry" x="5" y="12" width="330" height="30" />
+        </mxCell>
+        <mxCell id="access-type" value="[Программная система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="access">
+          <mxGeometry as="geometry" x="5" y="45" width="330" height="25" />
+        </mxCell>
+        <mxCell id="access-body" value="Учётные записи и роли" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="access">
+          <mxGeometry as="geometry" x="8" y="78" width="324" height="25" />
+        </mxCell>
+        <mxCell id="audit" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1000" y="800" width="340" height="140" />
+        </mxCell>
+        <mxCell id="audit-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#deebf7;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="audit">
+          <mxGeometry as="geometry" x="0" y="0" width="340" height="140" />
+        </mxCell>
+        <mxCell id="audit-title" value="Аудит и мониторинг" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="audit">
+          <mxGeometry as="geometry" x="5" y="12" width="330" height="30" />
+        </mxCell>
+        <mxCell id="audit-type" value="[Программная система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="audit">
+          <mxGeometry as="geometry" x="5" y="45" width="330" height="25" />
+        </mxCell>
+        <mxCell id="audit-body" value="События доступа, оповещения" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="audit">
+          <mxGeometry as="geometry" x="8" y="78" width="324" height="25" />
+        </mxCell>
+        <mxCell id="label-0" value="Выбирает врача&#10;и время" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="110" y="335" width="240" height="55" />
+        </mxCell>
+        <mxCell id="label-1" value="Ведёт записи" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="755" y="335" width="200" height="35" />
+        </mxCell>
+        <mxCell id="label-2" value="Получает&#10;расписание" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1090" y="335" width="240" height="55" />
+        </mxCell>
+        <mxCell id="label-3" value="Проверяет учётную&#10;запись и роли" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="460" y="710" width="240" height="55" />
+        </mxCell>
+        <mxCell id="label-4" value="Передаёт события&#10;без содержимого карт" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="725" y="710" width="270" height="55" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="context-target" name="Целевое состояние">
+    <mxGraphModel dx="1620" dy="1530" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1620" pageHeight="1530" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="heading" value="Медикаменте — контекст C4, через год" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=28;fontStyle=1;fontColor=#222;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="25" width="1540" height="55" />
+        </mxCell>
+        <mxCell id="edge-0" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.225;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="patient" target="clinic">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="580" y="370" />
+              <mxPoint x="680" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-1" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.75;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="staff" target="clinic">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1030" y="370" />
+              <mxPoint x="890" y="370" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-2" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.0;exitY=0.17857142857142858;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="access">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="465" y="590" />
+              <mxPoint x="465" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-3" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=1.0;exitY=0.17857142857142858;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="lab">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1130" y="590" />
+              <mxPoint x="1130" y="435" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-4" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=0.0;exitY=0.6071428571428571;exitPerimeter=0;entryX=1.0;entryY=0.36666666666666664;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="accounting">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-5" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=1.0;exitY=0.6071428571428571;exitPerimeter=0;entryX=0.0;entryY=0.36666666666666664;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="bank">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-6" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.0;exitY=0.8928571428571429;exitPerimeter=0;entryX=1.0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="audit">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="465" y="790" />
+              <mxPoint x="465" y="1065" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-7" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=block;startFill=1;exitX=1.0;exitY=0.8928571428571429;exitPerimeter=0;entryX=0.0;entryY=0.5;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="notify">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1130" y="790" />
+              <mxPoint x="1130" y="1065" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-8" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.5;exitY=1.0;exitPerimeter=0;entryX=0.5;entryY=0.0;entryPerimeter=0;" edge="1" parent="1" source="clinic" target="analytics">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="edge-9" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.0;exitY=0.625;exitPerimeter=0;entryX=1.0;entryY=0.8;entryPerimeter=0;" edge="1" parent="1" source="analytics" target="audit">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="445" y="1190" />
+              <mxPoint x="445" y="1110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="edge-10" style="edgeStyle=none;rounded=0;html=0;strokeColor=#555555;strokeWidth=1.5;endArrow=block;endFill=1;startArrow=none;startFill=1;exitX=0.5;exitY=0.0;exitPerimeter=0;entryX=0.5;entryY=1.0;entryPerimeter=0;" edge="1" parent="1" source="analyst" target="analytics">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="patient" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="430" y="120" width="300" height="130" />
+        </mxCell>
+        <mxCell id="patient-box" value="" style="rounded=1;arcSize=10;html=0;fillColor=#244f73;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="patient">
+          <mxGeometry as="geometry" x="0" y="0" width="300" height="130" />
+        </mxCell>
+        <mxCell id="patient-title" value="Пациент" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="patient">
+          <mxGeometry as="geometry" x="5" y="12" width="290" height="30" />
+        </mxCell>
+        <mxCell id="patient-type" value="[Человек]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="patient">
+          <mxGeometry as="geometry" x="5" y="45" width="290" height="25" />
+        </mxCell>
+        <mxCell id="patient-body" value="Портал и приложение" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="patient">
+          <mxGeometry as="geometry" x="8" y="78" width="284" height="25" />
+        </mxCell>
+        <mxCell id="staff" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="880" y="120" width="300" height="130" />
+        </mxCell>
+        <mxCell id="staff-box" value="" style="rounded=1;arcSize=10;html=0;fillColor=#244f73;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="staff">
+          <mxGeometry as="geometry" x="0" y="0" width="300" height="130" />
+        </mxCell>
+        <mxCell id="staff-title" value="Сотрудник клиники" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="staff">
+          <mxGeometry as="geometry" x="5" y="12" width="290" height="30" />
+        </mxCell>
+        <mxCell id="staff-type" value="[Человек]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="staff">
+          <mxGeometry as="geometry" x="5" y="45" width="290" height="25" />
+        </mxCell>
+        <mxCell id="staff-body" value="Работа по своей роли" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="staff">
+          <mxGeometry as="geometry" x="8" y="78" width="284" height="25" />
+        </mxCell>
+        <mxCell id="access" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="360" width="310" height="150" />
+        </mxCell>
+        <mxCell id="access-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#deebf7;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="access">
+          <mxGeometry as="geometry" x="0" y="0" width="310" height="150" />
+        </mxCell>
+        <mxCell id="access-title" value="Единый вход" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="access">
+          <mxGeometry as="geometry" x="5" y="12" width="300" height="30" />
+        </mxCell>
+        <mxCell id="access-type" value="[Программная система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="access">
+          <mxGeometry as="geometry" x="5" y="45" width="300" height="25" />
+        </mxCell>
+        <mxCell id="access-body" value="Учётные записи и роли" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="access">
+          <mxGeometry as="geometry" x="8" y="78" width="294" height="25" />
+        </mxCell>
+        <mxCell id="lab" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1270" y="360" width="310" height="150" />
+        </mxCell>
+        <mxCell id="lab-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#eeeeee;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="lab">
+          <mxGeometry as="geometry" x="0" y="0" width="310" height="150" />
+        </mxCell>
+        <mxCell id="lab-title" value="Лаборатория" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="lab">
+          <mxGeometry as="geometry" x="5" y="12" width="300" height="30" />
+        </mxCell>
+        <mxCell id="lab-type" value="[Внешняя система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="lab">
+          <mxGeometry as="geometry" x="5" y="45" width="300" height="25" />
+        </mxCell>
+        <mxCell id="lab-body" value="Заказы и результаты" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="lab">
+          <mxGeometry as="geometry" x="8" y="78" width="294" height="25" />
+        </mxCell>
+        <mxCell id="accounting" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="655" width="310" height="150" />
+        </mxCell>
+        <mxCell id="accounting-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#eeeeee;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="accounting">
+          <mxGeometry as="geometry" x="0" y="0" width="310" height="150" />
+        </mxCell>
+        <mxCell id="accounting-title" value="Учётные системы" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="accounting">
+          <mxGeometry as="geometry" x="5" y="12" width="300" height="30" />
+        </mxCell>
+        <mxCell id="accounting-type" value="[Внешняя система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="accounting">
+          <mxGeometry as="geometry" x="5" y="45" width="300" height="25" />
+        </mxCell>
+        <mxCell id="accounting-body" value="Бухгалтерия и склад в 1С&#10;ККМ" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="accounting">
+          <mxGeometry as="geometry" x="8" y="78" width="294" height="50" />
+        </mxCell>
+        <mxCell id="bank" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1270" y="655" width="310" height="150" />
+        </mxCell>
+        <mxCell id="bank-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#eeeeee;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="bank">
+          <mxGeometry as="geometry" x="0" y="0" width="310" height="150" />
+        </mxCell>
+        <mxCell id="bank-title" value="Платёжный провайдер" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="bank">
+          <mxGeometry as="geometry" x="5" y="12" width="300" height="30" />
+        </mxCell>
+        <mxCell id="bank-type" value="[Внешняя система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="bank">
+          <mxGeometry as="geometry" x="5" y="45" width="300" height="25" />
+        </mxCell>
+        <mxCell id="bank-body" value="Онлайн-оплата" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="bank">
+          <mxGeometry as="geometry" x="8" y="78" width="294" height="25" />
+        </mxCell>
+        <mxCell id="clinic" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="590" y="540" width="400" height="280" />
+        </mxCell>
+        <mxCell id="clinic-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#deebf7;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="clinic">
+          <mxGeometry as="geometry" x="0" y="0" width="400" height="280" />
+        </mxCell>
+        <mxCell id="clinic-title" value="Клиническая система" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="clinic">
+          <mxGeometry as="geometry" x="5" y="12" width="390" height="30" />
+        </mxCell>
+        <mxCell id="clinic-type" value="[Программная система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="clinic">
+          <mxGeometry as="geometry" x="5" y="45" width="390" height="25" />
+        </mxCell>
+        <mxCell id="clinic-body" value="Порталы и мобильное приложение&#10;Запись, CRM, медкарты, платежи&#10;&#10;Общие правила данных:&#10;права, теги, сроки хранения" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="clinic">
+          <mxGeometry as="geometry" x="8" y="78" width="384" height="125" />
+        </mxCell>
+        <mxCell id="audit" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="990" width="310" height="150" />
+        </mxCell>
+        <mxCell id="audit-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#deebf7;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="audit">
+          <mxGeometry as="geometry" x="0" y="0" width="310" height="150" />
+        </mxCell>
+        <mxCell id="audit-title" value="Аудит и мониторинг" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="audit">
+          <mxGeometry as="geometry" x="5" y="12" width="300" height="30" />
+        </mxCell>
+        <mxCell id="audit-type" value="[Программная система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="audit">
+          <mxGeometry as="geometry" x="5" y="45" width="300" height="25" />
+        </mxCell>
+        <mxCell id="audit-body" value="События доступа&#10;Оповещения IT" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="audit">
+          <mxGeometry as="geometry" x="8" y="78" width="294" height="50" />
+        </mxCell>
+        <mxCell id="notify" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1270" y="990" width="310" height="150" />
+        </mxCell>
+        <mxCell id="notify-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#eeeeee;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="notify">
+          <mxGeometry as="geometry" x="0" y="0" width="310" height="150" />
+        </mxCell>
+        <mxCell id="notify-title" value="Сервис уведомлений" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="notify">
+          <mxGeometry as="geometry" x="5" y="12" width="300" height="30" />
+        </mxCell>
+        <mxCell id="notify-type" value="[Внешняя система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="notify">
+          <mxGeometry as="geometry" x="5" y="45" width="300" height="25" />
+        </mxCell>
+        <mxCell id="notify-body" value="Push и голосовой робот" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#333;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="notify">
+          <mxGeometry as="geometry" x="8" y="78" width="294" height="25" />
+        </mxCell>
+        <mxCell id="analytics" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="590" y="1090" width="400" height="160" />
+        </mxCell>
+        <mxCell id="analytics-box" value="" style="rounded=0;arcSize=10;html=0;fillColor=#deebf7;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="analytics">
+          <mxGeometry as="geometry" x="0" y="0" width="400" height="160" />
+        </mxCell>
+        <mxCell id="analytics-title" value="Аналитическая система" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="analytics">
+          <mxGeometry as="geometry" x="5" y="12" width="390" height="30" />
+        </mxCell>
+        <mxCell id="analytics-type" value="[Программная система]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="analytics">
+          <mxGeometry as="geometry" x="5" y="45" width="390" height="25" />
+        </mxCell>
+        <mxCell id="analytics-body" value="Обезличивание, озеро данных&#10;BI и подготовка моделей" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#16324b;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="analytics">
+          <mxGeometry as="geometry" x="8" y="78" width="384" height="50" />
+        </mxCell>
+        <mxCell id="analyst" value="" style="group;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="1370" width="280" height="125" />
+        </mxCell>
+        <mxCell id="analyst-box" value="" style="rounded=1;arcSize=10;html=0;fillColor=#244f73;strokeColor=#555555;strokeWidth=1;" vertex="1" parent="analyst">
+          <mxGeometry as="geometry" x="0" y="0" width="280" height="125" />
+        </mxCell>
+        <mxCell id="analyst-title" value="Аналитик" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=21;fontStyle=1;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="analyst">
+          <mxGeometry as="geometry" x="5" y="12" width="270" height="30" />
+        </mxCell>
+        <mxCell id="analyst-type" value="[Человек]" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=14;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="analyst">
+          <mxGeometry as="geometry" x="5" y="45" width="270" height="25" />
+        </mxCell>
+        <mxCell id="analyst-body" value="Отчёты и модели" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=18;fontStyle=0;fontColor=#fff;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="analyst">
+          <mxGeometry as="geometry" x="8" y="78" width="264" height="25" />
+        </mxCell>
+        <mxCell id="label-0" value="Запись, оплата,&#10;свои документы" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="410" y="275" width="300" height="55" />
+        </mxCell>
+        <mxCell id="label-1" value="Работает с данными&#10;по роли" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="900" y="275" width="260" height="55" />
+        </mxCell>
+        <mxCell id="label-2" value="Проверяет вход&#10;и роли" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="365" y="505" width="200" height="55" />
+        </mxCell>
+        <mxCell id="label-3" value="Заказ и результат&#10;по order_id" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1030" y="505" width="200" height="55" />
+        </mxCell>
+        <mxCell id="label-4" value="Документы оплаты,&#10;статус учёта" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="365" y="645" width="210" height="55" />
+        </mxCell>
+        <mxCell id="label-5" value="Номер, сумма&#10;и статус платежа" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1010" y="645" width="240" height="55" />
+        </mxCell>
+        <mxCell id="label-6" value="События доступа" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="365" y="925" width="200" height="40" />
+        </mxCell>
+        <mxCell id="label-7" value="Напоминание&#10;и ответ пациента" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1020" y="925" width="220" height="55" />
+        </mxCell>
+        <mxCell id="label-8" value="Разрешённые данные&#10;в закрытую обработку" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="925" width="280" height="55" />
+        </mxCell>
+        <mxCell id="label-9" value="События выгрузки&#10;и чтения" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="360" y="1205" width="220" height="55" />
+        </mxCell>
+        <mxCell id="label-10" value="Получает обезличенные&#10;наборы и отчёты" style="text;html=0;whiteSpace=wrap;align=center;verticalAlign=middle;fontFamily=Arial;fontSize=17;fontStyle=0;fontColor=#222;strokeColor=none;fillColor=white;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="825" y="1290" width="270" height="55" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
